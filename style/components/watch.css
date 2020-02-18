@@ -1,0 +1,195 @@
+.header-menu-watch {
+	height: 90px;
+	background: #fff;
+}
+
+.watch-menu {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	overflow: hidden;
+	
+}
+
+.watch-menu ul {
+	width: 100%;
+	
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.watch-menu ul li,
+.watch-menu ul li a {
+	color: #111;
+	line-height: 19px;
+	font-size: 13px;
+	padding: 21px;
+	padding-top: 5px;
+    text-align: center;
+}
+
+.watch-menu ul li a:hover {
+	color: #0070c9;
+}
+
+.watch-menu ul li a.watch-menu-item {
+	transform: scale(1);
+	transition: 0.5s;
+	display: block;
+
+}
+
+.watch-main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+}
+
+.iWatch {
+	margin-top: 30px;
+	text-align: center;
+	background: #fafafa;
+}
+
+.series4 {
+	text-align: center;
+	padding-top: 150px;
+    padding-bottom: 162px;
+    padding: 150px 0 76px;
+}
+
+
+.watch1-watch2 {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+
+.watch1-watch2 h2 {
+	padding-top: 60px;
+	text-align: center;
+	font-size: 48px;
+	color: #fff;
+}
+
+.watch1-watch2 h3 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+
+
+.watch1 {
+	width: 675px;
+	height: 645px;
+	margin-right: 21px;
+    background-color: #000;
+	background-image: url("https://www.apple.com/v/watch/home/n/images/jump-tiles/health_static_large.jpg");
+	background-size: cover;
+	background-size: 634px 645px;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:bottom;
+}
+
+.watch2 {
+	width: 675px;
+	height: 645px;
+    background-color: #131218;
+	background-image: url("https://www.apple.com/v/watch/home/n/images/jump-tiles/workout_static_large.jpg");
+	background-size: cover;
+	background-size: 634px 645px;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:bottom;
+}
+
+
+.watch3-watch4 {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+	margin-top: -36px;
+}
+
+
+.watch3-watch4 h2 {
+	padding-top: 60px;
+	text-align: center;
+	font-size: 48px;
+	color: #fff;
+}
+
+.watch3-watch4 h3 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+
+
+.watch3 {
+	width: 675px;
+	height: 645px;
+	margin-right: 21px;
+    background-color: #000;
+	background-image: url("https://www.apple.com/v/watch/home/n/images/jump-tiles/activity_static_large.jpg");
+	background-size: cover;
+	background-size: 634px 645px;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:bottom;
+}
+
+.watch4 {
+	width: 675px;
+	height: 645px;
+    background-color: #131218;
+	background-image: url("https://www.apple.com/v/watch/home/n/images/jump-tiles/connect_static_large.jpg");
+	background-size: cover;
+	background-size: 634px 645px;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:bottom;
+}
+
+.learnMore-buy-watch {
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.learnMore-buy-watch ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.learnMore-buy-watch ul li,
+.learnMore-buy-watch ul li a {
+	line-height: 69px;
+	font-size: 24px;
+	font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+
+.learnMore-buy-watch ul li a:hover {
+	text-decoration: underline;
+}
+
+.watch-wrapper {
+	padding-top: 157px;
+    padding-left: 68px;
+	float: left;
+}
+
+.watch-wrapper h3 {
+	font-size: 30px;
+}

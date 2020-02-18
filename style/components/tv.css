@@ -1,0 +1,165 @@
+/*.header-menu-tv {
+	height: 135px;
+	background: rgba(242,242,242,0.7);
+
+}
+
+.tv-menu {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	overflow: hidden;
+	
+}
+
+.tv-menu ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tv-menu ul li,
+.tv-menu ul li a {
+	color: #111;
+	line-height: 19px;
+	font-size: 13px;
+	padding: 10px;
+    text-align: center;
+}
+
+.tv-menu ul li a:hover {
+	color: #0070c9;
+}
+
+.tv-menu ul li a.tv-menu-item {
+	transform: scale(1);
+	transition: 0.5s;
+	display: block;
+
+}*/
+
+
+.tv-main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+}
+
+.tv-content {
+	margin-top: 120px;
+	margin-bottom: 90px;
+}
+
+.tv-content h3 {
+	font-size: 107px;
+}
+
+.tv {
+background: #fff;
+width: 100%;
+text-align: center;
+}
+
+
+.tv-img {
+	margin-left: 60px;
+}
+
+.tv-h2 {
+	font-size: 32px;
+	text-align: center;
+	padding: 127px;
+}
+
+.theNewAppleTVapp {
+	background-image: linear-gradient(to right top, #065e66, #0b7983, #1095a1, #15b2c1, #1bd0e1);
+}
+
+.theNewAppleTVapp {
+	text-align: center;
+}
+
+.theNewAppleTVapp-h2 {
+	margin-top: 20px;
+	color: #fff;
+	font-size: 21px;
+}
+
+.theNewAppleTVapp-h3 {
+	color: #fff;
+	font-size: 48px;
+	padding: 100px;
+	padding-top: 48px;
+}
+
+.theNewAppleTVapp-wrapper {
+	padding: 180px;	
+}
+
+.availableInMay {
+	width: 136px;
+	padding: 10px;
+	margin-top: -60px;
+	margin-left: 424px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 17px;
+	opacity: 0.7;
+}
+
+.seeThePreview {
+	font-size: 24px;
+	letter-spacing: .009em;
+	font-weight: 400;
+	line-height: 1.33349;
+	margin: 31px 0px 23px;
+}
+
+.seeThePreview a {
+	color: #fff;
+}
+
+.tv4k {
+	text-align: center;
+	background-image: radial-gradient(circle, #434548, #39383b, #2e2c2e, #222121, #171616, #111010, #090909, #000000, #000000, #000000, #000000, #000000);
+}
+
+.tv4k-wrapper {
+	padding: 187px;
+
+}
+
+.tv4k-h3 {
+	color: #fff;
+	font-size: 48px;
+	padding: 100px;
+	padding-top: 48px;
+	padding-bottom: 24px;
+}
+
+.learnMore-buy-tv4k {
+	margin-top: 10px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.learnMore-buy-tv4k ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.learnMore-buy-tv4k ul li,
+.learnMore-buy-tv4k ul li a {
+	line-height: 69px;
+	font-size: 24px;
+	font-weight: 400;
+    text-align: center;
+    color: #fff;
+}

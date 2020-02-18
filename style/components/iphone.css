@@ -1,0 +1,42 @@
+.iphone {
+margin-top: 12px;
+background-color: #b00e23;
+width: 100%;
+}
+
+.title-wrapper {
+  margin-top: 137px;
+  margin-right: 90px;
+  width: 318px;
+  padding: 10px;
+  float: right;
+}
+
+.title-wrapper h3 {
+	font-size: 48px;
+	text-align: center;
+	color: #fff;
+}
+
+.title-wrapper p {
+	margin-top: 17px;
+	font-size: 21px;
+	text-align: center;
+	color: #fff;
+}
+
+.learnMore a {
+	display: block;
+    margin-top: 17px;
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+}
+
+.learnMore a:hover {
+	text-decoration: underline;
+}
+
+
+
+

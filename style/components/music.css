@@ -1,0 +1,308 @@
+.header-menu-music {
+	height: 135px;
+	background: rgba(242,242,242,0.7);
+
+}
+
+.music-menu {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	overflow: hidden;
+	
+}
+
+.music-menu ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.music-menu ul li,
+.music-menu ul li a {
+	color: #111;
+	line-height: 19px;
+	font-size: 13px;
+	padding: 24px;
+    padding-top: 10px;;
+    text-align: center;
+}
+
+.music-menu ul li a:hover {
+	color: #0070c9;
+}
+
+.music-menu ul li a.music-menu-item {
+	transform: scale(1);
+	transition: 0.5s;
+	display: block;
+}
+
+.music-main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+}
+
+.appleMusic-content {
+	padding-top: 100px; 
+}
+
+.appleMusic-wrapper {
+  margin-top: 137px;
+  margin-left: 184px;
+  width: 356px;
+  padding: 10px;
+  float: left;
+}
+
+.appleMusic-img {
+	float: right;
+	margin-right: -530px;
+}
+
+.appleMusic-wrapper h3 {
+	margin: 23px 0px 17px;
+	font-size: 48px;
+}
+
+
+.homePod {
+	background: #fafafa;
+	margin-bottom: 80px;
+}
+
+.homePod-content {
+	padding: 230px 0px 157px;
+}
+
+.homePod-wrapper {
+  margin-top: 137px;
+  margin-left: 184px;
+  width: 325px;
+  padding: 10px;
+  float: left;
+}
+
+.homePod-img {
+	float: right;
+	margin-right: 140px;
+}
+
+.homePod-wrapper h2 { 
+	font-size: 21px;
+	margin-bottom: 4px;
+}
+
+.homePod-wrapper h3 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+.learnMore-buy-music {
+	position: relative;
+	overflow: hidden;
+	margin-left: -9px;
+	margin-top: -20px;
+}
+
+.learnMore-buy-music ul {
+	display: flex;
+}
+
+.learnMore-buy-music ul li,
+.learnMore-buy-music ul li a {
+	color: #111;
+	line-height: 69px;
+	font-size: 17px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: -.022em;
+	padding: 5px;
+    color: #0070c9;
+}
+
+.learnMore-buy-music ul li a:hover {
+	text-decoration: underline;
+}
+
+.airPods {
+	background: #fff;
+}
+
+.airPods-content {
+	padding-top: 13px;
+}
+
+.airPods-wrapper {
+  margin-top: 320px;
+  margin-left: 184px;
+  width: 497px;
+  padding: 10px;
+  float: left;
+}
+
+.airPods-img {
+	float: right;
+	margin-right: 10px;
+}
+
+.airPods-wrapper h2 { 
+	font-size: 21px;
+	margin-bottom: 4px;
+}
+
+.airPods-wrapper h3 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+
+.iPodTouch {
+	background: #fafafa;
+	padding-top: 100px;
+	padding-bottom: 180px;
+}
+
+.iPodTouch-wrapper {
+  margin-top: 240px;
+  margin-left: 184px;
+  width: 480px;
+  padding: 10px;
+  float: left;
+}
+
+.iPodTouch-img {
+	float: right;
+	margin-right: 245px;
+}
+
+.iPodTouch-wrapper h2 { 
+	font-size: 21px;
+	margin-bottom: 4px;
+}
+
+.iPodTouch-wrapper h3 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+
+.accessories {
+	padding-top: 143px;
+	padding-bottom: 147px;
+}
+.accessories-wrapper {
+  margin-top: 240px;
+  margin-left: 184px;
+  width: 258px;
+  padding: 10px;
+  float: left;
+}
+
+.accessories-img {
+	float: right;
+	margin-right: 170px;
+}
+
+.accessories-wrapper h2 { 
+	font-size: 21px;
+	margin-bottom: 4px;
+}
+
+.accessories-wrapper h3 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+
+.giftCards {
+	padding-top: 102px;
+	padding-bottom: 90px;
+	background: #fafafa;
+}
+
+.giftCards-wrapper {
+  margin-top: 40px;
+  margin-left: 184px;
+  width: 569px;
+  padding: 10px;
+  float: left;
+}
+
+.giftCards-img {
+	float: right;
+	margin-right: 170px;
+}
+
+.giftCards-wrapper h2 { 
+	font-size: 21px;
+	margin-bottom: 4px;
+}
+
+.giftCards-wrapper h3 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+
+.RED {
+	background: #b00e23;
+}
+
+.RED-wrapper {
+  margin-top: 125px;
+  margin-left: 184px;
+  width: 318px;
+  padding: 10px;
+  float: left;
+}
+
+.RED-img {
+	float: right;
+	margin-right: 60px;
+}
+
+.RED-wrapper h2 { 
+	font-size: 17px;
+	margin-top: 17px;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	font-style: normal;
+	color: #fff;
+}
+
+.RED-wrapper h3 {
+	font-size: 48px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.learnMore-buy-music-red {
+	position: relative;
+	overflow: hidden;
+	margin-left: -9px;
+	margin-top: -20px;
+}
+
+.learnMore-buy-music-red ul {
+	display: flex;
+}
+
+.learnMore-buy-music-red ul li,
+.learnMore-buy-music-red ul li a {
+	line-height: 69px;
+	font-size: 17px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: -.022em;
+	padding: 5px;
+    color: #fff;
+}
+
+.learnMore-buy-music-red ul li a:hover {
+	text-decoration: underline;
+}

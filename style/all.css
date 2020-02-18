@@ -1,0 +1,15 @@
+@import url('reset/reset.css');
+@import url('components/header.css');
+@import url('components/section.css');
+@import url('components/footer.css');
+@import url('components/mac.css');
+@import url('components/ipad.css');
+@import url('components/iphone.css');
+@import url('components/productCard.css');
+@import url('components/watch.css');
+@import url('components/tv.css');
+@import url('components/music.css');
+@import url('components/signIn.css');
+@import url('components/auth.css');
+@import url('components/list.css');
+@import url('components/products.css');

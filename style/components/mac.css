@@ -1,0 +1,212 @@
+.header-menu {
+	height: 135px;
+	background: rgba(242,242,242,0.7);
+
+}
+
+.mac-menu {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	overflow: hidden;
+	
+}
+
+.mac-menu ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mac-menu ul li,
+.mac-menu ul li a {
+	color: #111;
+	line-height: 19px;
+	font-size: 13px;
+	padding: 10px;
+    text-align: center;
+}
+
+.mac-menu ul li a:hover {
+	color: #0070c9;
+}
+
+.mac-menu ul li a.mac-menu-item {
+	transform: scale(1);
+	transition: 0.5s;
+	display: block;
+
+}
+
+.mac-main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+}
+
+.iMac-h {
+	text-align: center;
+}
+
+.learnMore-buy {
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.learnMore-buy ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.learnMore-buy ul li,
+.learnMore-buy ul li a {
+	color: #111;
+	line-height: 69px;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 5px;
+    text-align: center;
+    color: #0070c9;
+}
+
+.learnMore-buy ul li a:hover {
+	text-decoration: underline;
+}
+
+.iMac h2 {
+	padding-top: 71px;
+	font-size: 28px;
+}
+.iMac h3 {
+	margin-top: 10px;
+	font-size: 56px;
+}
+
+.iMac {
+background: #fafafa;
+width: 100%;
+text-align: center;
+}
+
+.MacBookAir {
+background: #fafafa;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.MacBookAir h2 {
+	padding-top: 76px;
+	font-size: 56px;
+}
+.MacBookAir h3 {
+	margin-top: 10px;
+	font-size: 64px;
+}
+
+.MacBookPro {
+	margin-top: 30px;
+	text-align: center;
+	background: #131218;
+}
+
+.MacBookPro h2 {
+	padding-top: 76px;
+	font-size: 32px;
+	color: #fff;
+}
+
+.MacBookPro h3 {
+	margin-top: 10px;
+	font-size: 64px;
+	color: #fff;
+}
+
+.MacMini-iMacPro {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+
+.MacMini-iMacPro h2 {
+	padding-top: 60px;
+	text-align: center;
+	font-size: 48px;
+	color: #fff;
+}
+
+.MacMini-iMacPro h3 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+
+
+.MacMini {
+	width: 675px;
+	height: 645px;
+	margin-right: 50px;
+    background-color: #000;
+	background-image: url("https://www.apple.com/v/mac/home/af/images/overview/promo/mac_mini__br9jcwgai2mu_large.jpg");
+	background-size: cover;
+	background-size: 675px 560px;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:bottom;
+}
+
+.iMacPro {
+	width: 675px;
+	height: 645px;
+    background-color: #131218;
+	background-image: url("https://www.apple.com/v/mac/home/af/images/overview/promo/imac_pro__el8kcar06qky_large.jpg");
+	background-size: cover;
+	background-size: 775px 560px;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:bottom;
+}
+
+.compareModels {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	background: #fafafa;
+}
+
+.compareModels h2 {
+	padding-top: 55px;
+	font-size: 48px;
+}
+
+.compareModels-a {
+	margin-top: 13.6px;
+	margin-bottom: 64px;
+	font-size: 28px;
+
+}
+
+.compareModels-a a {
+	color: #0070c9;
+}
+
+.compareModels-a a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

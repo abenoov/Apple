@@ -1,0 +1,48 @@
+blockquote {
+    margin-left: : 0 0 20px;
+    padding: 15px 53px;
+    color: #747374;
+    text-align: center;
+    font-size: 11px;
+    background: #f2f2f2;
+}
+footer {
+    background: #f2f2f2;
+}
+footer .columnWrapper {
+    width: 960px;
+    margin: 0 289px;
+    overflow: auto;
+}
+footer .column {
+    width: 180px;
+    padding: 0 0 0 10px;
+    float: left;
+}
+footer .column:last-child {
+    border-right: none;
+}
+footer h4 {
+    padding: 15px 0 7px;
+    color: #333;
+    font-size: 11px;
+ }
+footer .address {
+    font-size: .75em;
+    line-height: 1.6em;
+    color: #bbb;
+}
+footer a:link, footer a:visited {
+    line-height: 1.6em;
+    color: #555;
+}
+footer .copyrightText {
+    padding: 40px 0 10px;
+    text-align: center;
+    font-size: .7em;
+    color: #aaa;
+}
+
+footer a:hover {
+	text-decoration: underline; 
+}

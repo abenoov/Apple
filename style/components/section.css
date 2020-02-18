@@ -1,0 +1,304 @@
+.container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+
+}
+
+.container .slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500%;
+	height: 100%;
+	animation: animate 10s linear infinite;
+}
+
+.container .slider .slide {
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.container .slider .slide .caption {
+	position: absolute;
+	bottom: 60px;
+	left: 60px;
+	right: 60px;
+	padding: 30px;
+	background: rgba(0,0,0,.5);
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+
+.container .slider .slide .caption h2 {
+	margin: 0 0 20px;
+	color: #fff;
+	font-size: 48px;
+	transition: 0.5s;
+}
+
+.container .slider .slide .caption p {
+	color: #fff;
+	font-size: 18px;
+	transition: 0.5s;
+}
+
+.container .slider .slide.slide1 {
+		background: url("https://www.apple.com/v/ipad/home/ao/images/overview/trade_in__elfv8i7rmh6q_large.jpg");
+		background-size: cover;
+		background-position: center;
+}
+
+.container .slider .slide.slide2 {
+		background: url("https://www.apple.com/v/mac/home/af/images/overview/macos/mojave__cwrl96nd8k66_large.jpg");
+		background-size: cover;
+		background-position: center;
+}
+
+.container .slider .slide.slide3{
+		background: url("https://ant-shop.ru/image/catalog/apple/apple-watch/nike/apple-watch-nike-series-4-describ-2.jpg");
+		background-size: cover;
+		background-position: center;
+}
+
+.container .slider .slide.slide4 {
+		background: url("https://solovey.su/image/download/id=10891&type=original");
+		background-size: cover;
+		background-position: center;
+}
+
+.container .slider .slide.slide1 {
+		background: url("https://infinitediaries.net/wp-content/uploads/2015/12/Apple-RED-day-2015-2000px.jpg");
+		background-size: cover;
+		background-position: center;
+}
+
+@keyframes animate {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+
+  }
+
+.box1 {
+	height: 569px;
+	width: 100%;
+	background: #fafafa;
+	padding-left: 10px;
+	
+
+}
+
+.box1 .iphoneXr {
+	display: block;
+  	margin: 155px auto;
+}
+
+.box1 .title-1 {
+	margin: auto;
+}
+.box2 {
+	height: 100vh;
+	width: 100%;
+	background-image: url("https://www.apple.com/v/home/ed/images/promos/watch-series-4/series_4_spring__c1oad4ap3k6e_small_2x.jpg");
+	background-size: cover;
+	background-position: center; 
+	display: block;
+	background-attachment: fixed;
+}
+
+.box3 {
+	height: 100vh;
+	width: 100%;
+	background-image: url("https://www.apple.com/v/home/ed/images/heroes/spring-iphone-xr/iphone_xr__b0z59ak0bqdy_large.jpg");
+	background-size: cover;
+	background-position: center; 
+	display: table;
+	background-attachment: fixed;
+}
+
+.box4 {
+	height: 100vh;
+	width: 100%;
+	background-image: url("https://www.apple.com/v/home/ed/images/promos/apple-arcade/apple_arcade_tile__e69rgw4ia2mq_large.jpg");
+	background-size: cover;
+	background-position: center; 
+	display: table;
+	background-attachment: fixed;
+}
+
+/*h1 {
+	font-size: 90px;
+	color: #000;
+	margin: 0px;
+	text-align: center;
+
+	vertical-align: middle;
+}*/
+
+.home-main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+}
+
+.iPhoneXr {
+background: #fafafa;
+width: 100%;
+text-align: center;
+}
+
+.iPhoneXr h2 {
+
+	padding-top: 71px;
+	font-size: 32px;
+}
+.iPhoneXr h3 {
+	margin-top: 10px;
+	font-size: 21px;
+}
+
+.iPhoneXr2 {
+margin-top: 12px;
+background: #fafafa;
+width: 100%;
+text-align: center;
+}
+
+.iPhoneXr2 h3 {
+
+	margin-top: 10px;
+	font-size: 21px;
+}
+
+.iPhoneXr2-content {
+	padding-top: 71px;
+}
+
+.iPhoneXs {
+margin-top: 12px;
+background: #fafafa;
+width: 100%;
+text-align: center;
+}
+
+.iPhoneXs h3 {
+
+	margin-top: 10px;
+	font-size: 21px;
+}
+
+.iPhoneXs-content {
+	padding-top: 71px;
+}
+
+.TV {
+margin-top: 12px;
+background-image: url("https://www.apple.com/v/home/ed/images/heroes/apple-tv-plus/apple_tv_plus_hero__eanv36ga64q6_large.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:bottom;
+width: 100%;
+text-align: center;
+}
+
+.TV h3 {
+	color: #fff;
+	margin-top: 10px;
+	font-size: 21px;
+}
+
+.TV-content {
+	height: 675px;
+	padding-top: 71px;
+}
+
+.TV-content a {
+	margin-top: 10px;
+	color: #fff;
+	font-size: 21px; 
+}
+
+.TV-content a:hover {
+	text-decoration: underline; 
+}
+
+.news-arcade {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+.news-arcade a {
+	padding-top: 13px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.news-arcade h3 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+
+.news {
+	padding-top: 71px;
+	width: 675px;
+	height: 645px;
+	margin-right: 50px;
+    background-color: #000;
+	background-image: url("https://www.apple.com/v/home/ed/images/promos/apple-news-plus/apple_news_plus_tile__enei4lmtsr0i_large.jpg");
+	background-size: cover;
+	background-size: 1111px 646px;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:bottom;
+    text-align: center;
+}
+
+.arcade {
+	padding-top: 71px;
+	width: 675px;
+	height: 645px;
+    background-color: #131218;
+	background-image: url("https://www.apple.com/v/home/ed/images/promos/apple-arcade/apple_arcade_tile__e69rgw4ia2mq_large.jpg");
+	background-size: cover;
+	background-size: 1261px 646px;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:bottom;
+    text-align: center;
+}
+

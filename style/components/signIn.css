@@ -1,0 +1,136 @@
+.signIn {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 92px;
+}
+
+.signIn-container {
+	margin-top: 13.6px;
+}
+
+.signIn-h1 {
+	padding-top: 34px;
+	padding-bottom: 36px;
+}
+.signIn-h1 h1 {
+	font-size: 40px;
+}
+
+.textField1-inp {
+	width: 408px;
+    height: 56px;
+	margin-bottom: 14px;
+	padding-left: 16px;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	color: #333;
+	text-align: left;
+	border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: rgba(255,255,255,.8);
+    box-shadow: none;
+
+}
+
+.textField2-inp {
+	width: 408px;
+    height: 56px;
+	margin-bottom: 14px;
+	padding-left: 16px;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	color: #333;
+	text-align: left;
+	border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: rgba(255,255,255,.8);
+    box-shadow: none;
+
+}
+
+.textField1-inp:focus, .textField2-inp:focus {
+	border-color: #0070c9;
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(131,192,253,.5);
+}
+.signIn-p {
+	width: 376px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+
+} 	
+.signIn-p p {
+	font-size: 14px;
+	color: #333;
+}
+
+.signIn-enter {
+	margin-top: 23px;
+	padding-bottom: 10px;
+}
+
+.signIn-btn {
+	width: 408px;
+	height: 54px;
+	font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    background-color: #0070c9;
+    background: linear-gradient(#42a1ec,#0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.createAccount a {
+	font-size: 17px;
+	line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    color: #0070c9;
+}
+
+.createAccount a:hover {
+	text-decoration: underline;
+}
+
+.signIn-btn:hover {
+
+background-image: linear-gradient(to top, #42a1ec, #3c9fed, #369ced, #309aee, #2997ee);
+}
+
+.signIn-btn:active {
+    background-color: #0067b9;
+    background: linear-gradient(#3d94d9,#0067b9);
+    border-color: #006dbc;
+    outline: none;		
+
+}
+
+.signIn-hr {
+	border-top: 1px solid #d6d6d6;
+	text-align: left;
+	padding: 0;
+}
+
+.NeedMoreHelp {
+	margin-left: 22px;
+	padding: 21px 0;
+	font-size: 17px;
+	color: #333;
+}
+
+.NeedMoreHelp a {
+	color: #0070c9;
+}
+
+.NeedMoreHelp a:hover {
+text-decoration: underline;
+}
