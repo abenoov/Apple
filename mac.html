@@ -11,7 +11,7 @@
 	<nav>
 			<div class="menu">
 				<ul>
-					<li><a href="index.html"><i class="fa fa-apple"></i></a></li>
+					<li><a href="index.php"><i class="fa fa-apple"></i></a></li>
 					<li><a href="mac.html" class="menu-item">Mac</a></li>
 					<li><a href="ipad.html" class="menu-item">iPad</a></li>
 					<li><a href="iphone.html" class="menu-item">iPhone</a></li>
@@ -27,9 +27,7 @@
 					<input type="text" name="" placeholder="Search apple.com">
 				</form>
 			 </div>
-			 <a class="close"><i class="fa fa-times"></i></a>
-			
-			
+			 <a class="close"><i class="fa fa-times"></i></a>	
 
 		  </div>
 
@@ -153,10 +151,7 @@
 
 </div>
 
-
-
-
-		    <footer>
+  <footer>
             <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</blockquote>
             
             <div class="columnWrapper">
@@ -248,7 +243,27 @@
             </div>
 
 
-            <p class="copyrightText">More ways to shop: Visit an Apple Store, call </p> <p> or find a reseller. Copyright © 2019 Apple Inc. All rights reserved.</p>
+            <p class="copyrightText">More ways to shop: Visit an Apple Store, call +8 300 300 5050</p>
+                   <div class="copyright-bottom"> <p> For find a reseller. Copyright © 2019 Apple Inc. All rights reserved.</p>
+       </div>
         </footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#search').click(function() {
+            $('.menu-item').addClass('hide-item')
+            $('.search-form').addClass('active')
+            $('.close').addClass('active')
+            $('#search').hide()
+        })
+        $('.close').click(function() {
+            $('.menu-item').removeClass('hide-item')
+            $('.search-form').removeClass('active')
+            $('.close').removeClass('active')
+            $('#search').show()
+        })
+    })
+    </script>
+    <script type="text/javascript" src="js/modal.js"></script>
 </body>
 </html>

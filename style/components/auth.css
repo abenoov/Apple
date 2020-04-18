@@ -243,10 +243,6 @@
     outline: 0;
     box-shadow: 0 0 0 3px rgba(131,192,253,.5);
 }
-.continue {
-
-
-}
 
 .continue-wrapper {
 
@@ -305,4 +301,34 @@ background-image: linear-gradient(to top, #42a1ec, #3c9fed, #369ced, #309aee, #2
     border-color: #006dbc;
     outline: none;		
 
+}
+
+.success-style {
+	width: 480px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.success-style p {
+	padding: 15px 0;
+	text-align: center;
+	font-size: 20px;
+	color: #3c763d;
+	background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.danger-style {
+	width: 480px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.danger-style p {
+	padding: 15px 0;
+	text-align: center;
+	font-size: 20px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
 }

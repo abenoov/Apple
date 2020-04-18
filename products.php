@@ -3,18 +3,20 @@
 <head>
 	<title>Products</title>
 	<link rel="stylesheet" type="text/css" href="style/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	
-
 	<button class="logOut"><a href="logout.php">Log out</a></button>
-
+<div class="homeBtn">
+	<a href="./index.php"> <button><i class="fa fa-home"></i></button> </a>
+</div>
 	<div class="adminPanel">
 				<h1>Admin panel</h1>
 			</div>
-
+<div class="blog-wrapper">
 <form onsubmit="saveBlog(event)">
-	
+<div class="inputProducts-wrapper">
 	<div class="inputProducts">
 		<input class="saveBlog" type="text" id="title" placeholder="Title">
 		<input class="saveBlog" type="text" id="description" placeholder="Description">
@@ -26,23 +28,25 @@
 		<label class="saveBlogImg" for="img">Upload image</label>
 		<button class="saveBlogBtn" type="submit">Save</button>
 	</div>
-	
-	<div class="findProduct">
-		<input class="saveBlog" placeholder="Find a product" type="text" id="search" onkeyup="findBlogs()">
-	</div>
+</div>
+
 
 </form>
 
 	<div class="signIn-hr">
 	</div>
 
+		<div class="findProduct-wrapper">
+	<div class="findProduct">
+		<input class="searchBlog" placeholder="Find a product..." type="text" id="search" onkeyup="findBlogs()">
+	</div>
+</div>
+
 	<div id="list">
 
 	</div>
 
-
-
-
+</div>
 
 </body>
 

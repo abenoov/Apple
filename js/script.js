@@ -18,9 +18,7 @@ function getBlogs() {
 			showBlogs(data);
 		}
 		inProgress = false;
-
 	});
-
 }
 
 getBlogs();
@@ -30,18 +28,20 @@ function showBlogs(blogs){
 	for(var i =0; i < blogs.length; i++) {
 		
 		listHTML += "<div class='list'>"+
-					"<img src='"+blogs[i].img+"' width='200px'>"+
-					"<h3>"+blogs[i].title+"</h2>"+
+					"<div class='listImg'>"+
+					"<img src='"+blogs[i].img+"' width='430px; height: 400px;'>"+
+					"</div>"+
+					"<div class='descriptionWrapper'>"+
+					"<h3>"+blogs[i].title+ "</h3>"+
 					"<div class='description'><p>"+blogs[i].description+"</p></div>"+
-					"<p>"+blogs[i].price+"</p>"+
+					"<h2>"+blogs[i].price+"$</h2>"+
 					"<p>"+blogs[i].date+"</p>"+ 
 					"<button onclick='deleteBlog("+blogs[i].id+")'>Delete</button>"+
+					"</div>"+
 					"</div>"
-			
 	}
 
 	list.html(listHTML);
-
 }
 
 function saveBlog(e){
@@ -92,8 +92,6 @@ function deleteBlog(id){
 		console.log(err);
 	})
 }
-
-
 
 
 function findBlogs() {

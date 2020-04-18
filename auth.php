@@ -26,18 +26,18 @@
 	$result = mysqli_query($connection, $query);
 
 	if ($result) {
-		$smsg = "Регистрация прошла успешно";
-} else {
-	$fsmsg = "Ошибка";
+		$smsg = "Регистрация прошла успешно!";
+	} else {
+		$fsmsg = "Ошибка регистрации пользователя!";
 	}
 } 
 
 ?>
 
 <nav>
-			<div class="menu">
-				<ul>
-					<li><a href="index.html"><i class="fa fa-apple"></i></a></li>
+		<div class="menu">
+			<ul>
+					<li><a href="index.php"><i class="fa fa-apple"></i></a></li>
 					<li><a href="mac.html" class="menu-item">Mac</a></li>
 					<li><a href="ipad.html" class="menu-item">iPad</a></li>
 					<li><a href="iphone.html" class="menu-item">iPhone</a></li>
@@ -47,17 +47,14 @@
 					<li><a href="#" class="menu-item">Support</a></li>
 					<li><a href="#" id="search"><img src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/us/ac-globalnav-dist/images/globalnav/search/image_large.svg"></a></li>
 					<li><a href="#" class="trigger"><img src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/us/ac-globalnav-dist/images/globalnav/bag/image_small.svg"></i></a></li>
-				</ul>
-				<div class="search-form">
-					<form>
+			</ul>
+		<div class="search-form">
+				<form>
 					<input type="text" name="" placeholder="Search apple.com">
 				</form>
-			 </div>
+		</div>
 			 <a class="close"><i class="fa fa-times"></i></a>
-			
-			
-
-		  </div>
+		 </div>
 
 		   <div class="modal">
     			<div class="modal-content">
@@ -71,7 +68,7 @@
         					<hr><li><img src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/us/ac-globalnav-dist/assets/ac-store/account.svg"><a href="#">Account</a></li></hr>
         					<hr><li><img src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/us/ac-globalnav-dist/assets/ac-store/signIn.svg"><a href="signIn.php">Sign in</a></li></hr>
         				</ul>
-        			</div>
+        	</div>
     </div>
 </div>
 		</nav>
@@ -86,7 +83,7 @@
 
 		<div class="right-wrapper">
 			<ul>
-				<li><a href="signIn.php">Sign In</a></li>
+				<li><a href="./signIn.php">Sign In</a></li>
 				<li><a class="Create-Your-Apple-ID" href="#">Create Your Apple ID</a></li>
 				<li><a href="#">FAQ</a></li>
 			</ul>
@@ -102,6 +99,28 @@
 
 		<div class="authorization">
 				<!-- Sign up form -->
+
+	<?php if(isset($smsg)){ ?>
+		
+		<div class="alert alert-success" role="alert">
+			<div class="success-style">
+				<strong><p><?php echo $smsg; ?></p></strong>
+			</div>
+		</div>
+	
+	<?php }?>
+
+
+	<?php if(isset($fsmsg)){ ?>
+	  	
+	  	<div class="alert alert-danger" role="alert">
+	  		<div class="danger-style">
+	  			<strong><p><?php echo $fsmsg; ?></strong></p>
+	  		</div> 
+	  	</div> 
+	  	
+	<?php }?>
+
 			<form class="form-signUp" method="POST"> 
 
 
@@ -159,15 +178,12 @@
 
 	  </div>
 	
-	  <?php if(isset($smsg)){ ?><div class="alert alert-success" role="alert"><?php echo $smsg; ?> </div> <?php }?>
-	  <?php if(isset($fsmsg)){ ?><div class="alert alert-danger" role="alert"><?php echo $fsmsg; ?> </div> <?php }?>
-
 	  <div class="continue">
 	  	<div class="continue-wrapper">
 	  	<div class="privacy-icon">
 	  	<img src="https://appleid.cdn-apple.com/static/bin/cb3845622929/dist/assets/privacy-icon.png">
 	  </div>
-	  <div class="small-text">
+	  <div class="small-text">sign
 	  		Your Apple ID information is used to allow you to sign in securely and access your data. Apple records certain usage data for security, support, and reporting purposes. <a href="#">Learn how Apple protects your privacy.
 	  		</a>
 	  </div>
@@ -180,10 +196,6 @@
 	</form>
 
 </div>
-
-
-
-
 </div>
 
 </body>

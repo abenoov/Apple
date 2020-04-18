@@ -99,11 +99,16 @@ text-align: center;
 	padding: 180px;	
 }
 
+.availableInMayWrapper {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
 .availableInMay {
-	width: 136px;
-	padding: 10px;
+	width: 15%;
+	padding: 20px;
 	margin-top: -60px;
-	margin-left: 424px;
 	border: 1px solid #fff;
 	border-radius: 4px;
 	color: #fff;

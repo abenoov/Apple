@@ -46,3 +46,9 @@ footer .copyrightText {
 footer a:hover {
 	text-decoration: underline; 
 }
+
+.copyright-bottom p {
+    color: #aaa;
+    text-align: center;
+    font-size: 15px;
+}

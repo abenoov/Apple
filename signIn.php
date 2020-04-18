@@ -11,7 +11,7 @@
 <nav>
 			<div class="menu">
 				<ul>
-					<li><a href="index.html"><i class="fa fa-apple"></i></a></li>
+					<li><a href="index.php"><i class="fa fa-apple"></i></a></li>
 					<li><a href="mac.html" class="menu-item">Mac</a></li>
 					<li><a href="ipad.html" class="menu-item">iPad</a></li>
 					<li><a href="iphone.html" class="menu-item">iPhone</a></li>
@@ -115,7 +115,7 @@
 	
 		echo " Hello". $email . "";
 		echo "<a href= 'logout.php'<button>Log out</button></a>";
-		header('Location: /apple/products.php?name='.$email);
+		header('Location:./products.php?name='.$email);
 	}
 
 	
